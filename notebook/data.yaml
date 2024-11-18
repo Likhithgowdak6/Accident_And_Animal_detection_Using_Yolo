@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['fire', 'minor', 'moderate', 'no_accident', 'severe']
+
+roboflow:
+  workspace: ansonlau1325-gmail-com
+  project: car-crash-severity-detection
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ansonlau1325-gmail-com/car-crash-severity-detection/dataset/13
